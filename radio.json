@@ -1,0 +1,21 @@
+{
+    "radios": [
+        {
+            "interface": "wlan0",
+            "BB board type": "Sparrow-D0",
+            "BB FW name": "wil6210_sparrow_plus.6.2.0.226.fw",
+            "radio frequency": 60480,
+            "connections": [
+                {
+                    "name": "KB-C6-0D-04",
+                    "CID": 1,
+                    "link state": "up",
+                    "link quality": 95,
+                    "RSSI": -54,
+                    "TX MCS": 8,
+                    "last RX MCS": 8
+                }
+            ]
+        }
+    ]
+}

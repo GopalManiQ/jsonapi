@@ -1,0 +1,38 @@
+{
+    "Ethernet-interfaces": [
+        {
+            "name": "eth1",
+            "interface number": 1,
+            "interface type": "2.5GbE",
+            "admin state": "enabled",
+            "run state": "up",
+            "speed": 1000,
+            "duplex": "full",
+            "PoE": "input"
+        },
+        {
+            "name": "eth2",
+            "interface number": 2,
+            "interface type": "2.5GbE",
+            "admin state": "enabled",
+            "run state": "down",
+            "speed": 0,
+            "duplex": "full",
+            "PoE": "output",
+            "PoE spec": "PoE+",
+            "PoE admin": "enabled"
+        },
+        {
+            "name": "eth3",
+            "interface number": 3,
+            "interface type": "1GbE",
+            "admin state": "enabled",
+            "run state": "down",
+            "speed": 0,
+            "duplex": "full",
+            "PoE": "output",
+            "PoE spec": "PoE",
+            "PoE admin": "enabled"
+        }
+    ]
+}
